@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transpiles simple xliff 1`] = `
+"module.exports = {
+  \\"res1\\": \\"Res 1\\",
+  \\"res2\\": \\"Res 2\\",
+  \\"res3\\": \\"Res 3\\"
+}"
+`;
+
+exports[`Transpiles special character xliff 1`] = `
+"module.exports = {
+  \\"deAndre\\": \\"De'Andre\\",
+  \\"html\\": \\"&lt;p&gt;Plan &amp; place content here&lt;p&gt;\\",
+  \\"nonAsciiQuotes\\": \\"’“”\\"
+}"
+`;
+
+exports[`Transpiles unicode xliff 1`] = `
+"module.exports = {
+  \\"hello\\": \\"今日は\\",
+  \\"bulletinBoard\\": \\"掲示板\\",
+  \\"butItDo\\": \\"人々はそれがそうであるとは思わないが、そうだ。\\",
+  \\"doctorStory\\": \\"Le garçon de la forêt est devenu un médecin très réussi en Jamaïque.\\"
+}"
+`;

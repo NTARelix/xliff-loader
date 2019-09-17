@@ -1,0 +1,22 @@
+<xliff>
+  <file>
+    <body>
+      <trans-unit id="hello" resname="hello">
+        <source>Hello</source>
+        <target>今日は</target>
+      </trans-unit>
+      <trans-unit id="bulletinBoard" resname="bulletinBoard">
+        <source>Bulleting Board</source>
+        <target>掲示板</target>
+      </trans-unit>
+      <trans-unit id="butItDo" resname="butItDo">
+        <source>People don’t think it be like it is, but it do.</source>
+        <target>人々はそれがそうであるとは思わないが、そうだ。</target>
+      </trans-unit>
+      <trans-unit id="doctorStory" resname="doctorStory">
+        <source>The forest boy became a very successful doctor in Jamaican.</source>
+        <target>Le garçon de la forêt est devenu un médecin très réussi en Jamaïque.</target>
+      </trans-unit>
+    <body>
+  </file>
+</xliff>

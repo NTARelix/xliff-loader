@@ -1,0 +1,18 @@
+<xliff>
+  <file>
+    <body>
+      <trans-unit id="deAndre" resname="deAndre">
+        <source>De'Andre</source>
+        <target>De'Andre</target>
+      </trans-unit>
+      <trans-unit id="html" resname="html">
+        <source>&lt;p&gt;Plan &amp; place content here&lt;p&gt;</source>
+        <target>&lt;p&gt;Plan &amp; place content here&lt;p&gt;</target>
+      </trans-unit>
+      <trans-unit id="nonAsciiQuotes" resname="nonAsciiQuotes">
+        <source>’“”</source>
+        <target>’“”</target>
+      </trans-unit>
+    <body>
+  </file>
+</xliff>

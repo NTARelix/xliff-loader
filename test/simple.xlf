@@ -1,0 +1,18 @@
+<xliff>
+  <file>
+    <body>
+      <trans-unit id="res1" resname="res1">
+        <source>Res 1</source>
+        <target>Res 1</target>
+      </trans-unit>
+      <trans-unit id="res2" resname="res2">
+        <source>Res 2</source>
+        <target>Res 2</target>
+      </trans-unit>
+      <trans-unit id="res3" resname="res3">
+        <source>Res 3</source>
+        <target>Res 3</target>
+      </trans-unit>
+    <body>
+  </file>
+</xliff>

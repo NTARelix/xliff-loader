@@ -1,0 +1,45 @@
+{
+  "name": "xliff-loader",
+  "version": "1.0.0",
+  "description": "Loads an Xliff file in Webpack and outputs an object where `resname`s are keys and `target`s are values.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [
+    "xliff",
+    "webpack",
+    "loader",
+    "xml"
+  ],
+  "author": "Kevin Koshiol <ntarelix@gmail.com>",
+  "license": "MIT",
+  "husky": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add",
+      "jest"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.12.20"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "memory-fs": "^0.4.1",
+    "prettier": "^1.18.2",
+    "webpack": "^4.39.3"
+  }
+}
