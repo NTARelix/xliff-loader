@@ -9,3 +9,4 @@ async function snapshotTestXliffFile(xliffPath) {
 test('Transpiles simple xliff', () => snapshotTestXliffFile('./simple.xlf'))
 test('Transpiles unicode xliff', () => snapshotTestXliffFile('./unicode.xlf'))
 test('Transpiles special character xliff', () => snapshotTestXliffFile('./specialChars.xlf'))
+test('Decodes HTML entities', () => snapshotTestXliffFile('./entities.xlf'))

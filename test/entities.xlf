@@ -1,0 +1,22 @@
+<xliff>
+  <file>
+    <body>
+      <trans-unit id="html" resname="html">
+        <source>&copy;</source>
+        <target>&copy;</target>
+      </trans-unit>
+      <trans-unit id="hex" resname="hex">
+        <source>&#x000a9;</source>
+        <target>&#x000a9;</target>
+      </trans-unit>
+      <trans-unit id="dec" resname="dec">
+        <source>&#169;</source>
+        <target>&#169;</target>
+      </trans-unit>
+      <trans-unit id="raw" resname="raw">
+        <source>©</source>
+        <target>©</target>
+      </trans-unit>
+    <body>
+  </file>
+</xliff>

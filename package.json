@@ -29,7 +29,8 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "fast-xml-parser": "^3.12.20"
+    "fast-xml-parser": "^3.12.20",
+    "he": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^6.3.0",

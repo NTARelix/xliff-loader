@@ -1,5 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Decodes HTML entities 1`] = `
+"module.exports = {
+  \\"html\\": \\"©\\",
+  \\"hex\\": \\"©\\",
+  \\"dec\\": \\"©\\",
+  \\"raw\\": \\"©\\"
+}"
+`;
+
 exports[`Transpiles simple xliff 1`] = `
 "module.exports = {
   \\"res1\\": \\"Res 1\\",
@@ -11,7 +20,7 @@ exports[`Transpiles simple xliff 1`] = `
 exports[`Transpiles special character xliff 1`] = `
 "module.exports = {
   \\"deAndre\\": \\"De'Andre\\",
-  \\"html\\": \\"&lt;p&gt;Plan &amp; place content here&lt;p&gt;\\",
+  \\"html\\": \\"<p>Plan & place content here<p>\\",
   \\"nonAsciiQuotes\\": \\"’“”\\"
 }"
 `;
