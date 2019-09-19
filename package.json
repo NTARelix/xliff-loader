@@ -1,6 +1,6 @@
 {
   "name": "xliff-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads an Xliff file in Webpack and outputs an object where `resname`s are keys and `target`s are values.",
   "main": "src/index.js",
   "scripts": {
